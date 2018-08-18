@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="robots" content="noindex">
+  <title>Центр профессионального развития</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.2.2/css/swiper.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.3.1/jquery.fancybox.min.css">
+  <link rel="stylesheet" href="css/style.min.css">
+</head>
+<body>
+  <header class="header">
+    <div class="wrapper">
+      <div class="logo">
+        <img src="img/logo.png" alt="Logo" width="183" height="63">
+      </div>
+      <nav class="menu">
+        <ul class="menu__list">
+          <li class="menu__item">
+            <a href="#" class="menu__link menu__link--active">Сведения об образовательной организации</a>
+            <ul class="menu__sublist">
+              <li class="menu__subitem">
+                <a href="#" class="menu__sublink">История</a>
+              </li>
+              <li class="menu__subitem">
+                <a href="#" class="menu__sublink">Оформление на обучение</a>
+              </li>
+              <li class="menu__subitem">
+                <a href="#" class="menu__sublink menu__sublink--active">Нормативные документы</a>
+              </li>
+              <li class="menu__subitem">
+                <a href="#" class="menu__sublink">Преподаватели</a>
+              </li>
+              <li class="menu__subitem">
+                <a href="#" class="menu__sublink">Отзывы</a>
+              </li>
+              <li class="menu__subitem">
+                <a href="#" class="menu__sublink">Компании-партнеры</a>
+              </li>
+            </ul>
+          </li>
+          <li class="menu__item">
+            <a href="#" class="menu__link">Расписание</a>
+          </li>
+          <li class="menu__item">
+            <a href="#" class="menu__link">Контакты</a>
+          </li>
+        </ul>
+      </nav>
+      <div class="header__contacts">
+        <a href="tel:+74956442342" class="header__phone">+7 (495) 644-23-42</a>
+        <a href="mailto:info@centpr.ru" class="header__mail">info@centpr.ru</a>
+      </div>
+    </div>
+  </header>
+  
+  <main>
+    <section class="promo">
+      <div class="swiper-container promo__slider">
+        <ul class="swiper-wrapper">
+          <li class="swiper-slide">
+            <img src="img/slide.jpg" alt="Slide" width="1920" height="500">
+          </li>
+          <li class="swiper-slide">
+            <img src="img/slide.jpg" alt="Slide" width="1920" height="500">
+          </li>
+          <li class="swiper-slide">
+            <img src="img/slide.jpg" alt="Slide" width="1920" height="500">
+          </li>
+        </ul>
+        <div class="swiper-pagination promo__pagination"></div>
+      </div>
+      <div class="promo__btns">
+        <a href="#" class="btn">Профессиональная переподготовка</a>
+        <a href="#" class="btn">Повышение квалификации</a>
+      </div>
+    </section>
+    
+    <section class="meetups wrapper">
+      <div class="intro">
+        <img src="img/pencil.png" alt="Центр профессионального развития" width="65" height="59">
+        <p>Общество с ограниченной ответственностью «Центр профессионального развития» проводит обучение по повышению квалификации и профессиональной переподготовке стажеров, экспертов по подтверждению соответствия, испытателей, руководителей ОС и ИЛ согласно образовательным программам.</p>
+      </div>
+    
+      <p class="title">Ближайшие мероприятия</p>
+      <a href="#" class="title-link">Все мероприятия</a>
+      <ul class="meetups__list">
+        <li class="meetups__item">
+          <time datetime="2018-07-23" class="meetups__date"><span>23</span>Июль</time>
+          <figure class="meetups__img">
+            <img src="img/img-1.jpg" alt="" width="360" height="220">
+          </figure>
+          <p class="meetups__category">Повыщение квалификации</p>
+          <p class="meetups__title">Подтверждение соответствия продукции по специализации: Молоко и молочная продукция</p>
+        </li>
+        <li class="meetups__item">
+          <time datetime="2018-07-23" class="meetups__date"><span>24</span>Июль</time>
+          <figure class="meetups__img">
+            <img src="img/img-2.jpg" alt="" width="360" height="220">
+          </figure>
+          <p class="meetups__category">Профессиональная переподготовка</p>
+          <p class="meetups__title">Специалист по подтверждению соответствия продукции по специализации: Хлебобулочные, макаронные, кондитерские изделия и сахар</p>
+        </li>
+        <li class="meetups__item">
+          <time datetime="2018-07-23" class="meetups__date"><span>26</span>Июль</time>
+          <figure class="meetups__img">
+            <img src="img/img-3.jpg" alt="" width="360" height="220">
+          </figure>
+          <p class="meetups__category">Повыщение квалификации</p>
+          <p class="meetups__title">Подтверждение соответствия продукции по специализации: Молоко и молочная продукция</p>
+        </li>
+      </ul>
+    </section>
+    
+    <section class="tabs">
+      <div class="wrapper">
+        <p class="title">Наши направления</p>
+        <div class="tabs__line" id="tabs">
+          <ul class="tabs__title">
+            <li class="tabs__name"><a href="#tabs-1">Профессиональная переподготовка</a></li>
+            <li class="tabs__name"><a href="#tabs-2">Повышение квалификации</a></li>
+          </ul>
+          <div class="tabs__field" id="tabs-1">
+            <ul class="tabs__list">
+              <li class="tabs__item">
+                <a href="#">«Специалист по подтверждению соответствия продукции по специализации:<span>Продукция химической и нефтяной промышленности»</span></a>
+              </li>
+              <li class="tabs__item">
+                <a href="#">«Специалист по подтверждению соответствия продукции по специализации:<span>Продукция автомобилестроения»</span></a>
+              </li>
+              <li class="tabs__item">
+                <a href="#">«Специалист по подтверждению соответствия продукции по специализации:<span>Электрооборудование»</span></a>
+              </li>
+              <li class="tabs__item">
+                <a href="#">«Специалист по подтверждению соответствия продукции по специализации:<span>Растительные масла и продукты их переработки»</span></a>
+              </li>
+              <li class="tabs__item">
+                <a href="#">«Специалист по подтверждению соответствия продукции по специализации:<span>Медицинские изделия»</span></a>
+              </li>
+              <li class="tabs__item">
+                <a href="#">«Специалист по подтверждению соответствия продукции по специализации:<span>Хлебобулочные, макаронные, кондитерские изделия и сахар»</span></a>
+              </li>
+              <li class="tabs__item">
+                <a href="#">«Специалист по подтверждению соответствия продукции по специализации:<span>Продукция машиностроения»</span></a>
+              </li>
+              <li class="tabs__item">
+                <a href="#">«Специалист по подтверждению соответствия продукции по специализации:<span>Парфюмерно-косметическая продукция и средства гигиены»</span></a>
+              </li>
+              <li class="tabs__item">
+                <a href="#">«Специалист по подтверждению соответствия продукции по специализации:<span>Продукция машиностроения»</span></a>
+              </li>
+              <li class="tabs__item">
+                <a href="#">«Специалист по подтверждению соответствия продукции по специализации:<span>Парфюмерно-косметическая продукция и средства гигиены»</span></a>
+              </li>
+            </ul>
+            <a href="#" class="tabs__btn">Все направления</a>
+            <a href="#" class="tabs__link" download>Скачать Годовой план программ профессиональной переподготовки на 2018 год (.pdf 415 кб)</a>
+          </div>
+          <div class="tabs__field" id="tabs-2">
+            Tab 2 info
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <section class="benefits">
+      <ul class="benefits__list">
+        <li class="benefits__item">
+          <figure class="benefits__icon">
+            <img src="img/3d-modeling.png" alt="Доступность" width="45" height="46">
+          </figure>
+          <p class="benefits__title">Доступность</p>
+          <p>Дополнительное профессиональное образование доступно для Вас из любой точки планеты, где есть интернет</p>
+        </li>
+        <li class="benefits__item">
+          <figure class="benefits__icon">
+            <img src="img/growth.png" alt="Эффективность" width="40" height="38">
+          </figure>
+          <p class="benefits__title">Эффективность</p>
+          <p>Образовательные программы соответствуют ФГОС и профессиональным стандартам</p>
+        </li>
+        <li class="benefits__item">
+          <figure class="benefits__icon">
+            <img src="img/guarantee.png" alt="Гарантия качества" width="40" height="42">
+          </figure>
+          <p class="benefits__title">Гарантия качества</p>
+          <p>Наши преподаватели действующие эксперты с многолетним опытом работы</p>
+        </li>
+        <li class="benefits__item">
+          <figure class="benefits__icon">
+            <img src="img/wallet.png" alt="Сроки и стоимость" width="40" height="41">
+          </figure>
+          <p class="benefits__title">Сроки и стоимость</p>
+          <p>Обучаясь дистанционно вы экономите время и деньги</p>
+        </li>
+      </ul>
+    </section>
+    
+    <section class="news">
+      <div class="wrapper">
+        <p class="title">Новости и события</p>
+        <a href="#" class="title-link">Архив новостей</a>
+        <ul class="news__list">
+          <li class="news__item">
+            <time datetime="2018-07-22">22.07.2018</time>
+            <a href="#">Подтверждение соответствия продукции по специализации: Молоко и молочная продукция</a>
+          </li>
+          <li class="news__item">
+            <time datetime="2018-07-20">20.07.2018</time>
+            <a href="#">Специалист по подтверждению соответствия продукции по специализации: Хлебобулочные, макаронные, кондитерские изделия и сахар</a>
+          </li>
+          <li class="news__item">
+            <time datetime="2018-07-19">19.07.2018</time>
+            <a href="#">Подтверждение соответствия продукции по специализации: Молоко и молочная продукция</a>
+          </li>
+        </ul>
+      </div>
+    </section>
+    
+    <section class="contacts">
+      <div class="contacts__map">
+        
+      </div>
+      <div class="contacts__info">
+        <p class="contacts__title">Наши контакты:</p>
+        <address>117437, г. Москва, ул. Профсоюзная, д.108, комната №45</address>
+        <p class="contacts__station">Беляево, Калужско-Рижская линия</p>
+        <a href="tel:+74956442342" class="contacts__phone">8-495-644-23-42</a>
+        <a href="tel:+74993224888" class="contacts__phone">8-499-322-48-88</a>
+        <a href="mailto:info@centpr.ru" class="contacts__mail">info@centpr.ru</a>
+      </div>
+    </section>
+  </main>
+  
+  <footer class="footer">
+    <div class="wrapper">
+      <div class="footer__top">
+        <div class="footer__logo">
+          <p>Центр профессионального развития</p>
+        </div>
+        <div class="footer__links">
+          <p class="footer__title"></p>
+          <ul class="footer__list">
+            <li><a href="#">История</a></li>
+            <li><a href="#">Направления</a></li>
+            <li><a href="#">Документы</a></li>
+            <li><a href="#">Услуги</a></li>
+            <li><a href="#">Вакансии</a></li>
+            <li><a href="#">Новости</a></li>
+          </ul>
+        </div>
+        <div class="footer__block">
+          <a href="tel:+74956442342" class="footer__phone">8-495-644-23-42</a>
+          <span>Пн-Пт 9:00-18:00</span>
+          <a data-fancybox data-src="#call" href="javascript:;" class="footer__btn">Написать нам</a>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <p>© 2018 Все права защищены.</p>
+        <p>Разработка сайта: <a href="#">Company Name</a></p>
+      </div>
+    </div>
+  </footer>
+  
+  <!-- Modal window -->
+  <div style="display: none;" id="call" class="modal">
+    <p class="modal__title">Заказать звонок</p>
+    <form action="#" class="modal__form">
+      <input type="text" name="name" class="modal__input" placeholder="Ваше имя">
+      <input type="tel" name="phone" class="modal__input" placeholder="Номер телефона">
+      <button type="submit" class="modal__btn">Перезвоните мне</button>
+    </form>
+    <span>Наш менеджер перезвонит вам в ближайшее время.</span>
+  </div>
+  
+  <script src="js/jquery-3.2.1.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.2.2/js/swiper.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.3.1/jquery.fancybox.min.js"></script>
+
+  <!-- Slider -->
+  <script>
+    var mySwiper = new Swiper ('.promo__slider', {
+      pagination: {
+        el: '.promo__pagination',
+        clickable: true,
+      },
+      simulateTouch: false,
+      preventClicks: false,
+      preventClicksPropagation: false,
+    });
+  </script>
+  
+  <!-- Tabs -->
+  <script>
+    $(function() {
+      $("#tabs").tabs();
+    });
+  </script>
+</body>
+</html>
