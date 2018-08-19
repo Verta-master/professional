@@ -79,37 +79,45 @@
     </section>
     
     <section class="meetups wrapper">
-      <div class="intro">
+      <div class="meetups__intro">
         <img src="img/pencil.png" alt="Центр профессионального развития" width="65" height="59">
         <p>Общество с ограниченной ответственностью «Центр профессионального развития» проводит обучение по повышению квалификации и профессиональной переподготовке стажеров, экспертов по подтверждению соответствия, испытателей, руководителей ОС и ИЛ согласно образовательным программам.</p>
       </div>
     
-      <p class="title">Ближайшие мероприятия</p>
-      <a href="#" class="title-link">Все мероприятия</a>
+      <div class="title-block">
+        <p class="title">Ближайшие мероприятия</p>
+        <a href="#" class="title-link">Все мероприятия</a>
+      </div>
       <ul class="meetups__list">
         <li class="meetups__item">
           <time datetime="2018-07-23" class="meetups__date"><span>23</span>Июль</time>
-          <figure class="meetups__img">
-            <img src="img/img-1.jpg" alt="" width="360" height="220">
-          </figure>
-          <p class="meetups__category">Повыщение квалификации</p>
-          <p class="meetups__title">Подтверждение соответствия продукции по специализации: Молоко и молочная продукция</p>
+          <a href="#" class="meetups__img">
+            <img src="img/img-1.jpg" alt="Повыщение квалификации" width="360" height="220">
+          </a>
+          <div class="meetups__text">
+            <a href="#" class="meetups__category">Повыщение квалификации</a>
+            <a href="#" class="meetups__title">Подтверждение соответствия продукции по специализации: Молоко и молочная продукция</a>
+          </div>
         </li>
         <li class="meetups__item">
           <time datetime="2018-07-23" class="meetups__date"><span>24</span>Июль</time>
-          <figure class="meetups__img">
-            <img src="img/img-2.jpg" alt="" width="360" height="220">
-          </figure>
-          <p class="meetups__category">Профессиональная переподготовка</p>
-          <p class="meetups__title">Специалист по подтверждению соответствия продукции по специализации: Хлебобулочные, макаронные, кондитерские изделия и сахар</p>
+          <a href="#" class="meetups__img">
+            <img src="img/img-2.jpg" alt="Профессиональная переподготовка" width="360" height="220">
+          </a>
+          <div class="meetups__text">
+            <a href="#" class="meetups__category">Профессиональная переподготовка</a>
+            <a href="#" class="meetups__title">Специалист по подтверждению соответствия продукции по специализации: Хлебобулочные, макаронные, кондитерские изделия и сахар</a>
+          </div>
         </li>
         <li class="meetups__item">
           <time datetime="2018-07-23" class="meetups__date"><span>26</span>Июль</time>
-          <figure class="meetups__img">
-            <img src="img/img-3.jpg" alt="" width="360" height="220">
-          </figure>
-          <p class="meetups__category">Повыщение квалификации</p>
-          <p class="meetups__title">Подтверждение соответствия продукции по специализации: Молоко и молочная продукция</p>
+          <a href="#" class="meetups__img">
+            <img src="img/img-3.jpg" alt="Повыщение квалификации" width="360" height="220">
+          </a>
+          <div class="meetups__text">
+            <a href="#" class="meetups__category">Повыщение квалификации</a>
+            <a href="#" class="meetups__title">Подтверждение соответствия продукции по специализации: Молоко и молочная продукция</a>
+          </div>
         </li>
       </ul>
     </section>
@@ -117,7 +125,7 @@
     <section class="tabs">
       <div class="wrapper">
         <p class="title">Наши направления</p>
-        <div class="tabs__line" id="tabs">
+        <div class="tabs__block" id="tabs">
           <ul class="tabs__title">
             <li class="tabs__name"><a href="#tabs-1">Профессиональная переподготовка</a></li>
             <li class="tabs__name"><a href="#tabs-2">Повышение квалификации</a></li>
@@ -156,10 +164,14 @@
               </li>
             </ul>
             <a href="#" class="tabs__btn">Все направления</a>
-            <a href="#" class="tabs__link" download>Скачать Годовой план программ профессиональной переподготовки на 2018 год (.pdf 415 кб)</a>
+            <div class="tabs__link">
+              <a href="#" download>Скачать Годовой план программ профессиональной переподготовки на 2018 год (.pdf 415 кб)</a>
+            </div>
           </div>
           <div class="tabs__field" id="tabs-2">
-            Tab 2 info
+            <div class="tabs__info">
+              Tab 2 info
+            </div>
           </div>
         </div>
       </div>
