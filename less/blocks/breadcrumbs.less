@@ -1,0 +1,42 @@
+.breadcrumbs {
+  margin-bottom: 25px;
+}
+
+.breadcrumbs__link {
+  display: inline-block;
+  vertical-align: middle;
+  position: relative;
+  margin-right: 40px;
+  font-size: 12px;
+  color: #787878;
+  font-weight: 500;
+  .transition();
+  
+  &::after {
+    content: "";
+    position: absolute;
+    bottom: 5px;
+    right: -22px;
+    width: 3px;
+    height: 3px;
+    border-radius: 50%;
+    background-color: #787878;
+  }
+  
+  &:hover,
+  &:active {
+    color: #000;
+    .transition();
+  }
+}
+
+span.breadcrumbs__link {
+  &::after {
+    display: none;
+  }
+  
+  &:hover,
+  &:active {
+    color: #787878;
+  }
+}

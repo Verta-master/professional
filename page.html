@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="robots" content="noindex">
+  <title>Центр профессионального развития</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.3.1/jquery.fancybox.min.css">
+  <link rel="stylesheet" href="css/style.min.css">
+</head>
+<body>
+  <header class="header">
+    <div class="wrapper header__wrap">
+      <a href="#" class="logo">
+        <img src="img/logo.png" alt="Logo" width="183" height="63">
+      </a>
+      <nav class="menu">
+        <ul class="menu__list">
+          <li class="menu__item">
+            <a href="#" class="menu__link">Сведения об образовательной организации</a>
+            <div class="menu__wrap">
+              <ul class="menu__sublist">
+              <li class="menu__subitem">
+                <a href="#" class="menu__sublink">История</a>
+              </li>
+              <li class="menu__subitem">
+                <a href="#" class="menu__sublink">Оформление на обучение</a>
+              </li>
+              <li class="menu__subitem">
+                <a href="#" class="menu__sublink menu__sublink--active">Нормативные документы</a>
+              </li>
+              <li class="menu__subitem">
+                <a href="#" class="menu__sublink">Преподаватели</a>
+              </li>
+              <li class="menu__subitem">
+                <a href="#" class="menu__sublink">Отзывы</a>
+              </li>
+              <li class="menu__subitem">
+                <a href="#" class="menu__sublink">Компании-партнеры</a>
+              </li>
+            </ul>
+            </div>
+          </li>
+          <li class="menu__item">
+            <a href="#" class="menu__link menu__link--active">Расписание</a>
+          </li>
+          <li class="menu__item">
+            <a href="#" class="menu__link">Контакты</a>
+          </li>
+        </ul>
+      </nav>
+      <div class="header__contacts">
+        <a href="tel:+74956442342" class="header__phone">+7 (495) 644-23-42</a>
+        <a href="mailto:info@centpr.ru" class="header__mail">info@centpr.ru</a>
+      </div>
+    </div>
+  </header>
+  
+  <main  class="internal">
+    <div class="wrapper">
+      <h1 class="title-internal">Расписание ближайших мероприятий</h1>
+      <nav class="breadcrumbs">
+        <a href="#" class="breadcrumbs__link">Главная</a>
+        <span class="breadcrumbs__link">Расписание ближайших мероприятий</span>
+      </nav>
+
+      <div class="wrapper-internal">
+        <section class="sidebar">
+          <div class="search">
+            <p class="search__title">Поиск курсов</p>
+            <form action="#" method="get" class="search__form">
+              <input type="text" name="search" class="search__input" placeholder="Название курса">
+              <button type="submit" class="search__btn"></button>
+            </form>
+          </div>
+          
+          <nav class="sidebar__block">
+            <p class="sidebar__title">Направления</p>
+            <ul class="sidebar__list">
+              <li><a href="#">Органам по сертификации</a></li>
+              <li><a href="#">Испытательным лабораториям</a></li>
+              <li><a href="#">Строительным организациям</a></li>
+              <li><a href="#">Комплекс стандартов ПАО «Газпром» СТО Газпром 9000</a></li>
+              <li><a href="#">Кадровое делопроизводство</a></li>
+              <li><a href="#">Система менеджмента качества</a></li>
+              <li><a href="#">Система экологического менеджмента</a></li>
+              <li><a href="#">Система энергетического менеджмента</a></li>
+              <li><a href="#">Система менеджмента безопасности труда и охраны</a></li>
+              <li><a href="#">Интегрированные системы менеджмента</a></li>
+            </ul>
+            <a href="#" class="sidebar__btn">Все направления</a>
+          </nav>
+          
+          <div class="sidebar__block">
+            <p class="sidebar__icon">Хотите получать информацию о новых курсах?</p>
+            <form action="#" method="post" class="subscribe">
+              <input type="text" name="name" class="subscribe__input" placeholder="Ваше имя">
+              <input type="email" name="email" class="subscribe__input" placeholder="Эл.почта">
+              <button type="submit" class="subscribe__btn">Подписатьcя</button>
+            </form>
+          </div>
+        </section>
+
+        <section class="event">
+
+        </section>
+      </div>
+    </div>
+  </main>
+  
+  <footer class="footer">
+    <div class="wrapper">
+      <div class="footer__top">
+        <div class="footer__logo">
+          <p>Центр профессионального развития</p>
+        </div>
+        <div class="footer__links">
+          <p class="footer__title">О центре</p>
+          <ul class="footer__list">
+            <li><a href="#">История</a></li>
+            <li><a href="#">Направления</a></li>
+            <li><a href="#">Документы</a></li>
+            <li><a href="#">Услуги</a></li>
+            <li><a href="#">Вакансии</a></li>
+            <li><a href="#">Новости</a></li>
+          </ul>
+        </div>
+        <div class="footer__block">
+          <a href="tel:+74956442342" class="footer__phone">8-495-644-23-42</a>
+          <span>Пн-Пт 9:00-18:00</span>
+          <a data-fancybox data-src="#call" href="javascript:;" class="footer__btn">Написать нам</a>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <p>© 2018 Все права защищены.</p>
+        <p>Разработка сайта: <a href="#">Company Name</a></p>
+      </div>
+    </div>
+  </footer>
+  
+  <!-- Modal window -->
+  <div style="display: none;" id="call" class="modal">
+    <p class="modal__title">Заказать звонок</p>
+    <form action="#" class="modal__form">
+      <input type="text" name="name" class="modal__input" placeholder="Ваше имя">
+      <input type="tel" name="phone" class="modal__input" placeholder="Номер телефона">
+      <button type="submit" class="modal__btn">Перезвоните мне</button>
+    </form>
+    <span>Наш менеджер перезвонит вам<br>в ближайшее время.</span>
+  </div>
+  
+  <script src="js/jquery-3.2.1.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.3.1/jquery.fancybox.min.js"></script>
+
+  <!-- Tabs -->
+  <script>
+    $(function() {
+      $("#tabs").tabs();
+    });
+  </script>
+</body>
+</html>
