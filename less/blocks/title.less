@@ -1,0 +1,38 @@
+.title {
+  margin: 0;
+  font-size: 30px;
+  font-weight: 500;
+}
+
+.title-link {
+  display: block;
+  position: relative;
+  padding-right: 15px;
+  font-size: 14px;
+  color: @blue;
+  .transition();
+  
+  &::after {
+    content: "";
+    position: absolute;
+    top: 3px;
+    right: 0;
+    width: 6px;
+    height: 10px;
+    background-image: url(../img/arrow.png);
+    background-repeat: no-repeat;
+  }
+  
+  &:hover,
+  &:active {
+    color: @blue-dark;
+    .transition();
+  }
+}
+
+.title-block {
+  margin-bottom: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
