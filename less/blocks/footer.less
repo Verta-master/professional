@@ -7,8 +7,8 @@
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
-  padding-top: 60px;
-  padding-bottom: 60px;
+  padding-top: 45px;
+  padding-bottom: 52px;
 }
 
 .footer__bottom {
@@ -44,11 +44,27 @@
 
 .footer__phone {
   display: block;
+  position: relative;
+  padding-left: 25px;
+  margin-bottom: 5px;
   font-size: 24px;
   font-weight: 600;
+  
+  &::before {
+    content: "";
+    position: absolute;
+    top: 3px;
+    left: 0;
+    width: 15px;
+    height: 24px;
+    background-image: url(../img/phone-receiver.png);
+    background-repeat: no-repeat;
+  }
 }
 
 .footer__block {
+  padding-top: 33px;
+  
   span {
     display: block;
     text-align: right;
@@ -58,7 +74,8 @@
 .footer__btn {
   width: 202px;
   height: 46px;
-  margin-top: 15px;
+  margin-top: 20px;
+  margin-left: auto;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -77,7 +94,7 @@
 .footer__list {
   .reset();
   list-style: none;
-  margin-top: 35px;
+  margin-top: 30px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -98,4 +115,10 @@
     color: @yellow;
     .transition();
   }
+}
+
+.footer__links {
+  width: 430px;
+  padding-left: 50px;
+  padding-top: 10px;
 }
