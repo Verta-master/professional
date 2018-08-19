@@ -1,3 +1,135 @@
 .event {
   width: 750px;
+  margin-bottom: 120px;
+}
+
+.event__tab {
+  margin-top: 20px;
+  background-color: rgba(255,255,255,0);
+}
+
+.event__list {
+  .reset();
+  list-style: none;
+}
+
+.event__item {
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  margin-bottom: 20px;
+  box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.05);
+  border-radius: 5px;
+  overflow: hidden;
+  
+  &--accent {
+    .event__status {
+      color: #fff;
+      background-color: rgb(255, 82, 42);
+      
+      p {
+        color: #fff;
+      }
+    }
+    .event__price {
+      color: #fff;
+    }
+    .event__date span {
+      color: #000;
+    }
+  }
+}
+
+.event__name {
+  width: 458px;
+  background-color: #fff;
+}
+
+.event__status {
+  width: 292px;
+  padding: 20px;
+  background-color: #f8f8f8;
+  
+  p {
+    color: #a3a3a3;
+  }
+  
+  .event__price {
+    margin: 0;
+    color: #000;
+    font-size: 30px;
+    font-weight: 500;
+  }
+  
+  i {
+    float: right;
+    padding-top: 15px;
+    font-size: 13px;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: 0.075em;
+    text-transform: uppercase;
+  }
+}
+
+.event__block {
+  padding: 30px;
+}
+
+.event__category {
+  display: block;
+  margin-bottom: 15px;
+  font-size: 11px;
+  font-weight: 600;
+  color: #4a5469;
+  text-transform: uppercase;
+  letter-spacing: 0.075em;
+}
+
+.event__title {
+  display: block;
+  color: @blue;
+  font-weight: 500;
+  .transition();
+  
+  &:hover,
+  &:active {
+    color: @blue-dark;
+    .transition();
+  }
+}
+
+.event__lector {
+  margin: 0;
+  padding: 15px 30px;
+  color: #a3a3a3;
+  font-size: 13px;
+  border-top: 1px solid rgb(232, 232, 232);
+  
+  span {
+    color: @blue;
+  }
+}
+
+.event__date {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+  span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 30px;
+    font-size: 13px;
+    font-weight: 500;
+    text-transform: uppercase;
+    background-color: rgb(255, 255, 153);
+    border-radius: 15px;
+  }
+  
+  b {
+    font-weight: 400;
+  }
 }
