@@ -413,6 +413,7 @@ textarea {
 body {
   width: 100%;
   max-width: 100%;
+  min-width: 1170px;
   font-family: "Montserrat", "Arial", sans-serif;
   font-size: 15px;
   line-height: 1.2;
@@ -476,10 +477,11 @@ button {
   z-index: 1000;
   top: 0;
   left: 0;
-  right: 0;
+  width: 100%;
+  min-width: 1170px;
   background-color: #fff;
-  padding-top: 15px;
-  padding-bottom: 15px;
+  padding-top: 18px;
+  padding-bottom: 18px;
 }
 .header__wrap {
   display: -webkit-box;
@@ -499,6 +501,8 @@ button {
 }
 .header__mail {
   display: block;
+  margin-top: 5px;
+  padding-left: 12px;
   font-size: 14px;
   color: #6e6e6e;
 }
@@ -508,6 +512,9 @@ button {
 }
 .logo img {
   display: block;
+}
+.menu {
+  padding-left: 25px;
 }
 .menu__list {
   margin: 0;
@@ -527,7 +534,7 @@ button {
 }
 .menu__item {
   position: relative;
-  margin-right: 55px;
+  margin-right: 58px;
 }
 .menu__item:hover .menu__wrap,
 .menu__item:active .menu__wrap {
@@ -552,7 +559,7 @@ button {
   position: absolute;
   top: 15px;
   left: 0;
-  padding-top: 40px;
+  padding-top: 43px;
 }
 .menu__sublist {
   margin: 0;
@@ -580,7 +587,7 @@ button {
 }
 .promo {
   position: relative;
-  margin-top: 93px;
+  margin-top: 99px;
 }
 .promo .swiper-wrapper {
   margin: 0;
@@ -651,6 +658,7 @@ button {
           align-items: center;
   font-size: 16px;
   color: #fff;
+  text-align: center;
   background-color: rgba(5, 25, 69, 0.8);
   border-radius: 2px;
   border: 1px solid #4a5469;
@@ -677,10 +685,10 @@ button {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin-bottom: 50px;
-  padding-top: 25px;
-  padding-bottom: 25px;
-  padding-left: 45px;
+  margin-bottom: 45px;
+  padding-top: 28px;
+  padding-bottom: 28px;
+  padding-left: 55px;
   padding-right: 85px;
   border-radius: 10px;
   background-color: #f3f5fb;
@@ -774,10 +782,11 @@ button {
 .meetups__text {
   padding: 30px;
   padding-right: 15px;
+  padding-bottom: 25px;
 }
 .meetups__category {
   display: block;
-  margin-bottom: 15px;
+  margin-bottom: 0;
   font-size: 11px;
   font-weight: 500;
   letter-spacing: 0.075em;
@@ -794,8 +803,10 @@ button {
 }
 .meetups__title {
   display: block;
+  margin-top: 5px;
   color: #000;
   font-weight: 500;
+  line-height: 22px;
   -webkit-transition: ease-out 0.3s;
   transition: ease-out 0.3s;
 }
@@ -836,7 +847,7 @@ button {
   transition: ease-out 0.3s;
 }
 .title-block {
-  margin-bottom: 40px;
+  margin-bottom: 32px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -848,13 +859,13 @@ button {
           align-items: center;
 }
 .tabs {
-  padding-top: 80px;
+  padding-top: 70px;
   padding-bottom: 80px;
   background-color: #051945;
 }
 .tabs .title {
   color: #fff;
-  margin-bottom: 40px;
+  margin-bottom: 35px;
 }
 .tabs__block {
   border-radius: 10px;
@@ -875,7 +886,7 @@ button {
           align-items: center;
   padding-left: 40px;
   padding-right: 40px;
-  border: 2px solid #dddddd;
+  border-bottom: 2px solid #dddddd;
   border-radius: 10px 10px 0 0;
 }
 .tabs__title .ui-state-active,
@@ -947,8 +958,8 @@ button {
   background-repeat: no-repeat;
 }
 .tabs__btn {
-  width: 265px;
-  height: 50px;
+  width: 267px;
+  height: 52px;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 50px;
@@ -994,8 +1005,8 @@ button {
   padding-left: 40px;
   padding-right: 20px;
   height: 410px;
-  margin-bottom: 35px;
-  margin-right: 15px;
+  margin-bottom: 25px;
+  margin-right: 12px;
   margin-top: 30px;
   overflow-y: scroll;
 }
@@ -1013,8 +1024,8 @@ button {
 .tabs__item a {
   display: block;
   width: 515px;
-  margin-bottom: 15px;
-  padding: 15px;
+  margin-bottom: 11px;
+  padding: 13px 20px;
   background-color: #f3f5fb;
   font-size: 13px;
   line-height: 22px;
@@ -1036,7 +1047,7 @@ button {
 }
 .benefits {
   padding-top: 80px;
-  padding-bottom: 80px;
+  padding-bottom: 60px;
 }
 .benefits__list {
   margin: 0;
@@ -1059,6 +1070,8 @@ button {
   line-height: 20px;
 }
 .benefits__item .benefits__title {
+  margin-top: 25px;
+  margin-bottom: 22px;
   font-size: 18px;
   font-weight: 600;
 }
@@ -1080,7 +1093,7 @@ button {
   background-color: rgba(255, 255, 0, 0.4);
 }
 .news {
-  padding-top: 80px;
+  padding-top: 75px;
   padding-bottom: 50px;
   background-color: #f3f5fb;
 }
@@ -1109,6 +1122,7 @@ button {
   margin-bottom: 30px;
   padding: 30px;
   padding-right: 20px;
+  padding-bottom: 20px;
   border-radius: 5px;
   background-color: #ffffff;
   -webkit-box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.05);
@@ -1119,7 +1133,7 @@ button {
 }
 .news__item time {
   display: block;
-  margin-bottom: 10px;
+  margin-bottom: 8px;
   font-size: 11px;
   font-weight: 500;
   letter-spacing: 0.075em;
@@ -1139,7 +1153,7 @@ button {
 }
 .contacts {
   position: relative;
-  min-height: 580px;
+  min-height: 575px;
   background-image: url(../img/map.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -1148,7 +1162,7 @@ button {
 .contacts iframe {
   border: 0;
   width: 100%;
-  height: 580px;
+  height: 575px;
 }
 .contacts__info {
   position: absolute;
@@ -1169,14 +1183,14 @@ button {
 }
 .contacts__title {
   margin-top: 0;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
   font-size: 24px;
   font-weight: 500;
 }
 .contacts__station {
   position: relative;
   margin-top: 20px;
-  margin-bottom: 30px;
+  margin-bottom: 35px;
   padding-left: 50px;
 }
 .contacts__station::before {
@@ -1195,9 +1209,12 @@ button {
 }
 .contacts__phone {
   display: block;
-  margin-bottom: 15px;
+  margin-bottom: 10px;
   font-size: 24px;
   font-weight: 500;
+}
+.contacts__phone--last {
+  margin-bottom: 20px;
 }
 .contacts__mail {
   color: #0a3fb4;
@@ -1225,8 +1242,8 @@ button {
   -webkit-box-align: start;
       -ms-flex-align: start;
           align-items: flex-start;
-  padding-top: 60px;
-  padding-bottom: 60px;
+  padding-top: 45px;
+  padding-bottom: 52px;
 }
 .footer__bottom {
   padding-top: 20px;
@@ -1262,8 +1279,24 @@ button {
 }
 .footer__phone {
   display: block;
+  position: relative;
+  padding-left: 25px;
+  margin-bottom: 5px;
   font-size: 24px;
   font-weight: 600;
+}
+.footer__phone::before {
+  content: "";
+  position: absolute;
+  top: 3px;
+  left: 0;
+  width: 15px;
+  height: 24px;
+  background-image: url(../img/phone-receiver.png);
+  background-repeat: no-repeat;
+}
+.footer__block {
+  padding-top: 33px;
 }
 .footer__block span {
   display: block;
@@ -1272,7 +1305,8 @@ button {
 .footer__btn {
   width: 202px;
   height: 46px;
-  margin-top: 15px;
+  margin-top: 20px;
+  margin-left: auto;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1298,7 +1332,7 @@ button {
   margin: 0;
   padding: 0;
   list-style: none;
-  margin-top: 35px;
+  margin-top: 30px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1326,4 +1360,9 @@ button {
   color: #ffff99;
   -webkit-transition: ease-out 0.3s;
   transition: ease-out 0.3s;
+}
+.footer__links {
+  width: 430px;
+  padding-left: 50px;
+  padding-top: 10px;
 }
