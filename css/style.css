@@ -878,8 +878,8 @@ button {
           align-items: center;
 }
 .title-internal {
-  margin-top: 45px;
-  margin-bottom: 20px;
+  margin-top: 35px;
+  margin-bottom: 10px;
   font-size: 34px;
   font-weight: 400;
 }
@@ -1473,7 +1473,7 @@ button {
   display: inline-block;
   vertical-align: middle;
   position: relative;
-  margin-right: 40px;
+  margin-right: 30px;
   font-size: 12px;
   color: #787878;
   font-weight: 500;
@@ -1483,8 +1483,8 @@ button {
 .breadcrumbs__link::after {
   content: "";
   position: absolute;
-  bottom: 5px;
-  right: -22px;
+  bottom: 6px;
+  right: -18px;
   width: 3px;
   height: 3px;
   border-radius: 50%;
@@ -1508,14 +1508,19 @@ span.breadcrumbs__link:active {
 }
 .sidebar__block {
   margin-bottom: 20px;
-  padding: 40px;
+  padding: 35px 40px;
+  padding-bottom: 40px;
   border-radius: 5px;
   background-color: #ffffff;
   -webkit-box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.05);
           box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.05);
 }
+.sidebar__block--info {
+  padding: 28px;
+}
 .sidebar__title {
   margin-top: 0;
+  margin-bottom: 5px;
   font-size: 20px;
   font-weight: 500;
 }
@@ -1526,7 +1531,7 @@ span.breadcrumbs__link:active {
 }
 .sidebar__list a {
   display: block;
-  padding: 14px 0;
+  padding: 13px 0;
   color: #0a3fb4;
   font-size: 14px;
   -webkit-transition: ease-out 0.3s;
@@ -1541,7 +1546,7 @@ span.breadcrumbs__link:active {
 .sidebar__btn {
   width: 100%;
   height: 50px;
-  margin-top: 25px;
+  margin-top: 12px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1562,6 +1567,24 @@ span.breadcrumbs__link:active {
   background-color: #dddddd;
   -webkit-transition: ease-out 0.3s;
   transition: ease-out 0.3s;
+}
+.sidebar__icon {
+  position: relative;
+  margin-top: 0;
+  margin-bottom: 20px;
+  padding-left: 60px;
+  font-size: 16px;
+  font-weight: 600;
+}
+.sidebar__icon::before {
+  content: "";
+  position: absolute;
+  top: 8px;
+  left: 2px;
+  width: 40px;
+  height: 40px;
+  background-image: url(../img/document.png);
+  background-repeat: no-repeat;
 }
 .event {
   width: 750px;
@@ -1611,7 +1634,8 @@ span.breadcrumbs__link:active {
 }
 .event__status {
   width: 292px;
-  padding: 20px;
+  padding: 30px;
+  padding-bottom: 25px;
   background-color: #f8f8f8;
 }
 .event__status p {
@@ -1625,7 +1649,7 @@ span.breadcrumbs__link:active {
 }
 .event__status i {
   float: right;
-  padding-top: 15px;
+  padding-top: 12px;
   font-size: 13px;
   font-weight: 700;
   font-style: normal;
@@ -1634,10 +1658,11 @@ span.breadcrumbs__link:active {
 }
 .event__block {
   padding: 30px;
+  padding-bottom: 15px;
 }
 .event__category {
   display: block;
-  margin-bottom: 15px;
+  margin-bottom: 10px;
   font-size: 11px;
   font-weight: 600;
   color: #4a5469;
@@ -1648,6 +1673,7 @@ span.breadcrumbs__link:active {
   display: block;
   color: #0a3fb4;
   font-weight: 500;
+  line-height: 22px;
   -webkit-transition: ease-out 0.3s;
   transition: ease-out 0.3s;
 }
@@ -1660,6 +1686,7 @@ span.breadcrumbs__link:active {
 .event__lector {
   margin: 0;
   padding: 15px 30px;
+  padding-bottom: 13px;
   color: #a3a3a3;
   font-size: 13px;
   border-top: 1px solid #e8e8e8;
@@ -1699,23 +1726,6 @@ span.breadcrumbs__link:active {
 .event__date b {
   font-weight: 400;
 }
-.sidebar__icon {
-  position: relative;
-  margin-top: 0;
-  padding-left: 60px;
-  font-size: 16px;
-  font-weight: 600;
-}
-.sidebar__icon::before {
-  content: "";
-  position: absolute;
-  top: 5px;
-  left: 0;
-  width: 40px;
-  height: 40px;
-  background-image: url(../img/document.png);
-  background-repeat: no-repeat;
-}
 .subscribe__input {
   width: 100%;
   height: 44px;
@@ -1739,6 +1749,7 @@ span.breadcrumbs__link:active {
 .subscribe__btn {
   width: 100%;
   height: 50px;
+  margin-top: 10px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1764,6 +1775,8 @@ span.breadcrumbs__link:active {
 .search {
   margin-bottom: 20px;
   padding: 30px;
+  padding-top: 25px;
+  padding-right: 20px;
   border-radius: 5px;
   background-color: #4a5469;
 }
@@ -1789,8 +1802,8 @@ span.breadcrumbs__link:active {
   background-color: #ffffff;
 }
 .search__input {
-  height: 50px;
-  padding: 0 15px;
+  height: 52px;
+  padding: 0 20px;
   border-radius: 25px;
 }
 .search__input::-webkit-input-placeholder {
@@ -1806,7 +1819,7 @@ span.breadcrumbs__link:active {
   opacity: 0.6;
 }
 .search__btn {
-  width: 50px;
+  width: 60px;
   height: 50px;
   background-image: url(../img/searcher.png);
   background-repeat: no-repeat;
